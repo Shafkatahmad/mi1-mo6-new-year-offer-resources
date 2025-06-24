@@ -11,8 +11,7 @@ body {
 
 /* banner section styles */
 .banner-container {
-  border: 2px solid red;
-  width: 1320px;
+  max-width: 1320px;
   height: 600px;
   margin: 0 auto;
   margin-top: 40px;
@@ -20,10 +19,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  border-radius: 15px;
 }
 .banner-content {
-  border: 2px solid yellow;
   color: white;
   text-align: center;
   height: 100%;
@@ -37,4 +35,57 @@ body {
 }
 .banner-content h1 {
   font-size: 72px;
+}
+
+/* 65% section styles */
+.sixty-five-section-container {
+  max-width: 800px;
+  max-height: 810px;
+  border: 2px solid red;
+  margin: 120px auto;
+  text-align: center;
+}
+.sixty-five-section-title {
+  font-size: 85px;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 1);
+}
+.sixty-five-section-sub-title {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 0, 0, 1);
+}
+.sixty-five-section-description {
+  font-size: 40px;
+  font-weight: bold;
+}
+.sixty-five-section-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* welcome section styles */
+.welcome {
+  width: 1320px;
+  height: 600px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90.00deg, rgb(7,2,11), rgba(7,2,11,0) 100%), url(../images/Vectorrr.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.welcome-title {
+  color: white;
+  font-size: 64px;
+}
+.welcome-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+.welcome-left {
+  width: 650px;
 }
