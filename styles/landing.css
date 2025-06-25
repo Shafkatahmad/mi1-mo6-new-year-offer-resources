@@ -174,7 +174,6 @@ body {
 .holiday-container {
   width: 1320px;
   height: 980px;
-  border: 2px solid red;
   margin: 120px auto;
   position: relative;
 }
@@ -211,4 +210,38 @@ body {
   position: absolute;
   top: 40%;
   left: 75%;
+}
+/* portfolio section styles */
+.portfolio-container {
+  width: 1320px;
+  height: 1160px;
+  margin: 120px auto;
+}
+.portfolio-text {
+  line-height: 2;
+  width: 890px;
+  margin-bottom: 45px;
+}
+.portfolio-sub-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgba(7, 2, 17, 1);
+}
+.portfolio-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.items {
+  width: 420px;
+  height: 450px;
+}
+.items img {
+  width: 100%;
+  height: 100%;
 }
