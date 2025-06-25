@@ -292,3 +292,35 @@ body {
   border-radius: 0 50px 50px 0;
   margin-left: 0;
 }
+/* footer styles */
+.footer-container {
+  width: 1320px;
+  height: 600px;
+  border: 2px solid black;
+  margin: 120px auto;
+  background-color: black;
+}
+.footer-first {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  color: white;
+}
+hr {
+  width: 1000px;
+  margin: 0 auto;
+}
+.footer-second {
+  width: 300px;
+  margin: 45px auto 45px auto;
+}
+
+.footer-third {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
